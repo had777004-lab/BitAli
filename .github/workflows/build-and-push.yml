@@ -50,5 +50,5 @@ jobs:
           file: ${{ matrix.dockerfile }}
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/BitAliNami/${{ matrix.app}}:${{ matrix.tag }}
+            ghcr.io/${{ github.repository_owner }}/bitali/${{ matrix.app}}:${{ matrix.tag }}
 
